@@ -265,9 +265,7 @@ GameObject:
   - component: {fileID: 614459913}
   - component: {fileID: 614459912}
   m_Layer: 0
-  m_Name: '{pixels[{col3,row11,colorrgba(0, 0, 0, 0)},{col3,row12,colorrgba(0, 0,
-    0, 0)},{col3,row13,colorrgba(0, 0, 0, 0)},{col3,row14,colorrgba(0, 0, 0, 0)},{col3,row15,colorrgba(0,
-    0, 0, (4)'
+  m_Name: Retro Canyon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
