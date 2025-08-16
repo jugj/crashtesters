@@ -9,6 +9,7 @@ public class Spieler : MonoBehaviour
     public float Sprungkraft = 3f;
     public float Sprungkraft0 = 3f;
     public Rigidbody2D rigidbody;
+    
 
     Vector2 bewegungsvektor = new Vector2(0,0);
     Vector2 laufvector = new Vector2(0,0);
