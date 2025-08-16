@@ -7,7 +7,6 @@ public class Spieler : MonoBehaviour
     
     public float Geschwindigkeit = 3f;
     public float Sprungkraft = 3f;
-    public float Sprungkraft0 = 3f;
     public Rigidbody2D rigidbody;
     
 
@@ -15,17 +14,30 @@ public class Spieler : MonoBehaviour
     Vector2 laufvector = new Vector2(0,0);
     Vector2 sprungvektor = new Vector2(0,0);
 
+    bool istInDerLuft = false;
     // Start is called before the first frame update
     void Start()
     {
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        bewegungsvektor = new Vector2(0,0);
+        
+        if(rigidbody.velocity.y == 0.0f)
+        {
+            istInDerLuft = false;
+        }else{
+            istInDerLuft = true;
+        }
 
+        bewegungsvektor = new Vector2(0,0);
+        if (Input.GetKey("up") && !istInDerLuft)
+        {
+            bewegungsvektor = bewegungsvektor+Vector2.up*Sprungkraft;
+        }
 
         if (Input.GetKey("right"))
         {
