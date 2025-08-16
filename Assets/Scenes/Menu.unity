@@ -203,7 +203,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 536308410}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 911262560}
+        m_TargetAssemblyTypeName: startMenui, Assembly-CSharp
+        m_MethodName: startGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &536308410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,7 +421,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 668572842}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 911262560}
+        m_TargetAssemblyTypeName: startMenui, Assembly-CSharp
+        m_MethodName: exitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &668572842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,6 +485,7 @@ GameObject:
   - component: {fileID: 911262556}
   - component: {fileID: 911262555}
   - component: {fileID: 911262559}
+  - component: {fileID: 911262560}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -562,6 +587,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85bf70f49a858e849aafbac93dd5edcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &911262560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911262554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ce6c7e8f2bab74cb3aa72b24d165a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1713698370

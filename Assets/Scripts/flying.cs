@@ -24,16 +24,6 @@ public class Spieler : MonoBehaviour
     void Update()
     {
         bewegungsvektor = new Vector2(0,0);
-        if (Input.GetKey("up"))
-        {
-            bewegungsvektor = bewegungsvektor+Vector2.up*Sprungkraft;
-        }
-
-       
-        if (Input.GetKey("down"))
-        {
-            bewegungsvektor = bewegungsvektor+Vector2.down*Sprungkraft0;
-        }
 
 
         if (Input.GetKey("right"))
