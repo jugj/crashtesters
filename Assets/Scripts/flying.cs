@@ -39,12 +39,12 @@ public class Spieler : MonoBehaviour
             bewegungsvektor = bewegungsvektor+Vector2.up*Sprungkraft;
         }
 
-        if (Input.GetKey("right"))
+        if (Input.GetKey(KeyCode.D))
         {
             bewegungsvektor = bewegungsvektor+Vector2.right*Geschwindigkeit;
         }
 
-        if (Input.GetKey("left"))
+        if (Input.GetKey(KeyCode.A))
         {
             bewegungsvektor = bewegungsvektor+Vector2.left*Geschwindigkeit;
         }
