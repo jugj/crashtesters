@@ -34,7 +34,7 @@ public class Spieler : MonoBehaviour
         }
 
         bewegungsvektor = new Vector2(0,0);
-        if (Input.GetKey("up") && !istInDerLuft)
+        if (Input.GetKey(KeyCode.Space) && !istInDerLuft)
         {
             bewegungsvektor = bewegungsvektor+Vector2.up*Sprungkraft;
         }

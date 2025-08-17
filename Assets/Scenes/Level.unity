@@ -7710,6 +7710,14 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 64ea3279fbdf6b44dae3d668fa5129f6, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 12
     m_Data: {fileID: 1547209851, guid: 946600e7e456ef94ca34877ee5229f54, type: 3}
@@ -7719,6 +7727,14 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -1305445650, guid: 946600e7e456ef94ca34877ee5229f54, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 226
     m_Data:
@@ -7747,7 +7763,7 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -12, y: -12, z: 0}
-  m_Size: {x: 24, y: 15, z: 1}
+  m_Size: {x: 36, y: 18, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -12906,7 +12922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf11b3d0e2b76c54f97e3513a474d7e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "H\xF6he": 20
+  "H\xF6he": 3
 --- !u!1 &1579461238
 GameObject:
   m_ObjectHideFlags: 0
